@@ -1,0 +1,417 @@
+body{
+    margin: 0;
+}
+.dabba{
+    display: flex;
+}
+.box1{
+    width: 16%;
+    height: 100vh;
+    border: 1px solid darkblue;
+    background: rgb(248, 248, 250);
+}
+.box2{
+    width: 84%;
+    height: 800pxpx;
+    border: 1px solid firebrick;
+    background: rgb(255, 255, 255);
+
+}
+.dabba1{
+    width: 100%;
+    height: 15%;
+    /* border: 1px solid rebeccapurple; */
+}
+.dabba1 img{
+    margin-top: 10%;
+    margin-left:27% ;
+    
+}
+.dash{
+    display: flex;
+    /* border: 1px solid white; */
+    border-radius: 20px;
+    margin-left: 10%;
+    margin-top: 5px;
+}
+.dash:hover{
+    border: 1px  solid white; 
+    color: aliceblue;
+}
+.dash p{
+    cursor: pointer;
+    color: rgb(104, 104, 104);
+    margin-left: 5%;
+}
+p:hover{
+    font-size: 17px;
+    /* color: rgb(211, 19, 19); */
+    
+    text-transform: red;
+}
+.dash i{
+    color: blue;
+    font-size: 25px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.icons{
+    width: 100%;
+    height: 9%;
+    border: 1px solid red;
+    background: white;
+}
+.icons .bi-text-left{
+    font-size: 30px;
+    margin-top: 20px;
+    position:absolute;
+    margin-left: 10px;
+}
+.icons .bi-person-circle{
+    font-size: 30px;
+    margin-top: 20px;
+    position:absolute;
+    margin-left: 70%;
+}
+.icons p{
+    position:absolute;
+    margin-top: 24px;
+    font-size: 20px;
+    margin-left: 73%;
+}
+.super{
+    display: flex;
+    
+}
+
+
+/*dashord start*/
+
+
+.super1{
+    width: 70%;
+    height: 91vh;
+    border: 1px solid darkblue;
+    display: none;
+}
+.super1 p{
+    font-size: 25px;
+    margin-left: 2%;
+    color: black;
+
+}.super1 .view{
+    width: 80%;
+    height: 21vh;
+    margin-left: 10%;
+    border-radius: 20px;
+    background: #d9dacf55;
+    display: flex;
+}
+.view1{
+    width: 30%;
+    height: 100%;
+    margin-left: 2%;
+}
+.view1 i{
+    font-size: 30px;
+   position: absolute;
+   margin-left: 1%;
+   margin: 12px;
+    
+}
+.view1 p{
+    font-size: 15px;
+    margin-left: 8%;
+    margin-top: -2px;
+}
+
+
+.total{
+    width: 80%;
+    height: 20%;
+    margin-top: 3%;
+    margin-left: 10%;
+    display: flex;
+}
+.total1{
+    width: 40%;
+    height: 100%;
+    border: 1px solid forestgreen;
+    margin-left: 8%;
+    border-radius: 20px;
+    background: #f7dfc8ef;
+}
+.total2{
+    width: 40%;
+    height: 100%;
+    border: 1px solid forestgreen;
+    margin-left: 8%;
+    border-radius: 20px;
+    background:rgb(227, 237, 227);
+}
+.total3{
+    width: 40%;
+    height: 100%;
+    border: 1px solid forestgreen;
+    margin-left: 8%;
+    border-radius: 20px;
+    background:rgb(214, 228, 237);
+}
+.total4{
+    width: 40%;
+    height: 100%;
+    border: 1px solid forestgreen;
+    margin-left: 8%;
+    border-radius: 20px;
+    background:rgb(194, 194, 193);
+}
+
+
+
+/* dashbord  end */
+
+
+/*  profile start*/
+
+
+.super1{
+    width: 70%;
+    height: 91vh;
+    border: 1px solid darkblue;  
+        
+}
+.dotm{
+   
+    display: flex;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.dotm i{
+    margin-top: 3%;
+}
+.super1 img{
+    background: rgb(71, 70, 70);
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.eform{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.eform1{
+    margin-left: 5%;
+    margin-top: 4%;
+}
+.super1 button{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    color: rgb(55, 33, 152);
+    border-radius: 10px;
+}
+.form1{
+    /* display: none; */
+}
+
+.form2{
+    height: 60%;
+    font-family: system-ui;
+    display: none;
+    
+}
+.form2 input{
+   width: 300px;
+   height: 45px;
+   border-radius: 7px;
+   border: 1px solid black;
+}
+.form2 .btn{
+    background: blueviolet;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+/* wallet start */
+
+
+
+
+.view_wallet{
+    width: 60%;
+    height: 25%;
+    margin-left: 10%;
+    background: #d9dacf55;
+    border-radius: 10px;
+}
+.view_wallet h1{
+    margin-top: -15px;
+    margin-left: 15px;
+}
+.view_wallet .pp{
+    margin-top: 50px;
+    
+}
+
+
+
+
+/* wallet end */
+
+.super1 .bi-clipboard , .bi-clipboard-check{
+    font-size: 25px;
+    
+    margin-left: 10px;
+}
+.super1 textarea{   
+    margin-left: 5%;
+}
+.bi-clipboard-check{
+    display: none;
+}
+.super1 #icon{
+    margin-left: 280px;
+    margin-top: -25px;
+}
+
+
+.super1 .view_sign{
+    width: 60%;
+    height: 35%;
+    margin-left: 100px;
+    /* position: absolute; */
+    background: rgb(84, 98, 103);
+    border-radius: 10px;
+}
+.view_sign i{
+    font-size: 20px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+.super2{
+    width: 22%;
+    height: 82vh;
+    margin: 3%;
+    border: 1px solid gold;
+    background: black;
+    border-radius: 20px;
+    right: 0;
+}
+.super2 p{
+    color: white;
+    font-size: 30px;
+    margin-left: 10%;
+}
+.sale{
+    display: flex;
+
+}
+.sale p{
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 7%;
+    font-size: 27px;
+}
+.sale i{
+    color: white;
+    font-size: 45px;
+    margin-left: 15%;
+}
+.sale span{
+    color: white;
+    margin-top: 13%;
+    margin-left: 8%;
+}
+
+
+
+@media screen and(max-width : 1200px){
+    .super2{
+        height: fit-content;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .super2 {
+      margin: 10px;
+      width: 29%;
+      height: 50%;
+
+    }
+    .super2 .sale p{
+        margin-left: 10%;
+    }
+    .super2 .sale span{
+        margin-top: 32px;
+    }
+   
+  }
+
+
+@media screen and (max-width: 800px) {
+    .super2 {
+      display: none;
+      ;
+    }
+    .super1{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width:600px){
+    .dabba1{
+        position: absolute;
+        margin-top: -101px;
+    }
+    .dabba2{
+        display: none;
+    }
+    .box1{
+        /* display: block; */
+        display: inherit;
+        position: absolute;
+        align-items: flex-end;
+        width: 0px;
+    }
+    .box1 p{
+        display: none;
+    }
+    .super1{
+        width: 100%;
+    }
+    .dash{
+        margin-left: 40px;
+    }
+    .icons .bi-text-left{
+        display: none;
+    }
+  }
+  .dabba1 img {
+    position: absolute;
+    font-size: 5px;
+    margin-top: -1090;
+    width: 100;
+    margin-left: 10;
+    height: 100;
+}
+  @media screen and (max-width:300px){
+    .dash{
+        margin-left: 40px;
+    }
+  }

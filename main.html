@@ -1,0 +1,370 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="dabba">
+        <div class="box1">
+            <div class="dabba1"><img src="preview1.png" height="70%" alt="PP Coin image"></div>
+            <hr style="margin-top: -5px; color: wheat;">
+            <div class="dabba2">
+                <p style="color: rgb(71, 71, 71); margin-top: -2%; margin-left: 15%;">Dashborad</p>
+            </div>
+
+            <div class="dash" onclick="pp(1)"><i class="bi bi-house-door"></i>
+                <p>Dashborad</p>
+            </div>
+            <div class="dash" onclick="pp(2)"><i class="bi bi-person-circle"></i>
+                <p>Profile</p>
+            </div>
+            <div class="dash" onclick="pp(3)"><i class="bi bi-wallet2"></i>
+                <p>Wallet</p>
+            </div>
+            <div class="dash" onclick="pp(4)"><i class="bi bi-wallet2"></i>
+                <p>Level</p>
+            </div>
+            <div class="dash" onclick="pp(5)"><i class="bi bi-wallet2"></i>
+                <p>Referral Link</p>
+            </div>
+            <div class="dash" onclick="pp(6)"><i class="bi bi-arrow-right-short"></i>
+                <p>Sign Out</p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="box2">
+            <div class="icons">
+                <i class="bi bi-text-left"></i>
+                <i class="bi bi-person-circle"></i>
+                <p>Pawan Saini...</p>
+            </div>
+
+
+            <div class="super">
+                <div class="super1">
+                    <p><strong> Hello Pawan</strong></p>
+                    <p style="font-size: 15px; margin-top: -15px;">Welcome Dashborad</p>
+                    <div class="view">
+                        <div class="view1">
+                            <i class="bi bi-coin"></i>
+                            <p style="margin-top: 20%;">Income</p>
+                            <p style="font-size: 30px;"><b> 15</b></p>
+                            <p style="margin-top: -20px;">Per Day</p>
+                        </div>
+                        <div class="view1">
+                            <i class="bi bi-coin"></i>
+                            <p style="margin-top: 20%;">Income</p>
+                            <p style="font-size: 30px;"><b> 150</b></p>
+                            <p style="margin-top: -20px;">Per Month</p>
+                        </div>
+                        <div class="view1">
+                            <i class="bi bi-coin"></i>
+                            <p style="margin-top: 20%;">Income</p>
+                            <p style="font-size: 30px;"><b> 1k</b></p>
+                            <p style="margin-top: -20px;">Per Year</p>
+                        </div>
+                    </div> <!--  div view end -->
+
+                    <div class="total">
+                        <div class="total1">
+                            <p></p>
+                        </div>
+                        <div class="total2"></div>
+                    </div>
+
+                    <div class="total">
+                        <div class="total3"></div>
+                        <div class="total4"></div>
+                    </div>
+
+
+
+                </div> <!-- super1 div end -->
+
+                <!--  profile start  -->
+                <div class="super1">
+
+                    <div class="form1" id="form1">
+
+                        <div class="dotm"><i class="bi bi-caret-right-fill"></i>
+                            <h2>Profile</h2>
+                        </div>
+                        <!-- <i class="bi bi-camera-fill"></i> -->
+                        <!-- <img src="/img/profile.png" width="30%"  alt=""> -->
+
+                        <div class="eform">
+                            <p style="font-size: 20px;"><strong>Name</strong></p>
+                            <p style="color: rgb(54, 54, 54); margin-top: -10px;">User Name</p>
+                        </div>
+                        <div class="eform1">
+                            <p style="font-size: 20px;"><strong>Email</strong></p>
+                            <p style="color: rgb(54, 54, 54); margin-top: -10px;">Abc88@gmai.com</p>
+                        </div>
+                        <div class="eform1">
+                            <p style="font-size: 20px;"><strong>Phone No:</strong></p>
+                            <p style="color: rgb(54, 54, 54); margin-top: -10px;">+91-987654321</p>
+                        </div>
+                        <div class="eform1">
+                            <p style="font-size: 20px;"><strong>Password</strong></p>
+                            <p style="color: rgb(54, 54, 54); margin-top: -10px;">PPcoin@1234</p>
+                        </div>
+                        <button onclick="edit()"><i class="bi bi-pencil" style="margin-right: 10px;"></i>Edit
+                            Profile</button>
+                    </div>
+
+                    <div class="form2" id="form2">
+                        <div class="dotm"><i class="bi bi-caret-right-fill"></i>
+                            <h2>Edit Profile</h2>
+                        </div>
+                        <!-- <div class="dotm"><i class="bi bi-caret-right-fill"></i><h2>Profile</h2></div> -->
+                        <!-- <i class="bi bi-camera-fill"></i> -->
+                        <!-- <img src="/img/profile.png" width="30%"  alt=""> -->
+
+                        <div class="eform">
+                            <p style="font-size: 20px;"><strong>Name</strong></p>
+                            <p style="color: rgb(54, 54, 54); margin-top: -10px;"><input type="text"
+                                    placeholder="User Name" name="" id=""></p>
+                        </div>
+                        <div class="eform1">
+                            <p style="font-size: 20px;"><strong>Email</strong></p>
+                            <p style="color: rgb(54, 54, 54); margin-top: -10px;"><input type="email" name=""
+                                    placeholder="Email" id=""></p>
+                        </div>
+                        <div class="eform1">
+                            <p style="font-size: 20px;"><strong>Phone No:</strong></p>
+                            <p style="color: rgb(54, 54, 54); margin-top: -10px;"><input type="number" name=""
+                                    placeholder="Phon No." id=""></p>
+                        </div>
+                        <div class="eform1">
+                            <p style="font-size: 20px;"><strong>Password</strong></p>
+                            <p style="color: rgb(54, 54, 54); margin-top: -10px;"><input type="password" name=""
+                                    placeholder="Password" id=""></p>
+                        </div>
+                        <button onclick="save()">Save</button>
+                        <button>Cancel</button>
+
+
+
+                    </div>
+
+
+
+
+
+                </div>
+                <div class="super1">
+                    <p><strong> Hello Pawan</strong></p>
+                    <p style="font-size: 15px; margin-top: -15px;">Your Wallet</p>
+                    <div class="view_wallet">
+                        <p class="pp">total</p>
+                        <h1>5,500</h1>
+                        <button>send</button>
+                        <button>Receive</button>
+                    </div>
+
+
+
+
+
+                </div> <!-- super1 div end -->
+
+
+                <div class="super1">
+                    <p><strong> Hello Pawan</strong></p>
+                    <p style="font-size: 15px; margin-top: -15px;">Lavel</p>
+                    <p>Top 10 Lader</p>
+                    <table class="table table-bordered border-primary" >
+                        <tr class="table-success">
+                        <th>se.no</th>
+                        <th>Name</th>
+                        <th>Earn </th>
+                        <th>Add Team</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>pawan</td>
+                            <td>15000</td>
+                            <td>150</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>pawan</td>
+                            <td>15000</td>
+                            <td>150</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>pawan</td>
+                            <td>15000</td>
+                            <td>150</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>pawan</td>
+                            <td>15000</td>
+                            <td>150</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>pawan</td>
+                            <td>15000</td>
+                            <td>150</td>
+                        </tr>
+                    </table>
+
+
+
+
+
+                </div> 
+
+
+
+                <div class="super1">
+                    <h1 style="margin-left: 5%;">Referral Friend</h1>
+                    <img src="img/re.png" alt="" width="20%" style="margin-left: 10%;"> 
+                    <p style="margin-left: 5%; color: rgb(83, 70, 54);">Invite your friends! When they sign up and fund their <br> account, well'give you ₹100 to invest.</p>
+                    <textarea name="" id="link" cols="30" rows="1">http://127.0.0.1:5500/main.html</textarea><a href="#" id="icon" onclick="f()" style="display: flex;"><i class="bi bi-clipboard" id="cop"></i><i class="bi bi-clipboard-check" id="copy"></i></a>
+                    <button>Share friends</button>
+                    <p style="margin-top: 30px;"><i class="bi bi-gift" style="font-size: 35px; margin-left: 5%;"></i> &nbsp; You'r Receive <span style="font-size: 30px; color: navy;">1 </span>Successfull referrals so far!</p>
+
+
+
+
+
+                </div> 
+
+
+
+
+
+
+                <div class="super1">
+                
+                    <p><strong> Hello Pawan</strong></p>
+                    <div class="view_sign ">
+                        <a href="main.html"><i class="bi bi-x"></i></a>
+                        <form class="form-logout" role="form">
+                            <button class="btn btn-primary btn-lg" onclick="document.location='home.html'"></button>
+
+                         </form>
+                        
+                    </div>
+                   
+                    
+
+
+
+
+
+                </div> 
+                
+
+
+
+
+
+                <div class="super2">
+                    <p>Your Team</p>
+                    <div class="sale">
+                        <i class="bi bi-person-fill-add"></i>
+                        <p>20k</p> <span>Team</span>
+                    </div>
+                    <div class="sale" style="margin-top: 15%;">
+                        <i class="bi bi-person-circle"></i>
+                        <p>20k</p> <span>Team</span>
+                    </div>
+                    <div class="sale" style="margin-top: 15%;">
+                        <i class="bi bi-layout-text-window-reverse"></i>
+                        <p>20k</p> <span>Team</span>
+                    </div>
+                    <div class="sale" style="margin-top: 15%;">
+                        <i class="bi bi-safe2-fill"></i>
+                        <p>20k</p> <span>Team</span>
+                    </div>
+                    <div class="sale" style="margin-top: 15%;">
+                        <i class="bi bi-strava"></i>
+                        <p>20k</p> <span>Team</span>
+                    </div>
+
+
+
+
+
+                </div> <!-- super2 div end -->
+
+
+
+
+            </div>
+        </div> <!-- box2 end -->
+
+    </div> <!-- dabba div end -->
+
+
+
+
+    <script>
+        function edit() {
+            document.getElementById("form1").style.display = "none";
+            document.getElementById("form2").style.display = "block";
+
+        }
+        function save() {
+            document.getElementById("form2").style.display = "none";
+            document.getElementById("form1").style.display = "block";
+        }
+
+
+        let slideindex = 1;
+        showslider(slideindex);
+
+        function pp(n) {
+            showslider(slideindex = n);
+        }
+
+        function showslider(n) {
+            let i;
+            let sp = document.getElementsByClassName("super1");
+            let dot = document.getElementsByClassName("dash");
+
+            for (i = 0; i < sp.length; i++) {
+                sp[i].style.display = "none";
+            }
+            for (i = 0; i < dot.length; i++) {
+                dot[i].style.display = "block";
+            }
+            sp[slideindex - 1].style.display = "block";
+            dot[slideindex - 1].style.display += "active";
+        }
+
+
+        function f(){
+            var copytext = document.getElementById("link");
+            
+            navigator.clipboard.writeText(copytext.value);
+        
+            // document.getElementById("icon").innerHTML = x;
+
+
+            document.getElementById("cop").style.display = "none";
+            document.getElementById("copy").style.display = "block";
+
+        }
+       
+    </script>
+</body>
+
+</html>
